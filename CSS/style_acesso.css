@@ -1,0 +1,49 @@
+
+
+table{
+    background-color: rgba(0, 0, 0, .2);
+    width: 90%;
+    margin: 30px auto;
+}
+
+tr{
+
+    line-height: 30px;
+}
+tr#titulo{
+    
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, .6);
+    color: whitesmoke;
+}
+td{
+    box-shadow: 2px 2px 2px 2px #888888;
+    padding: 0px 5px;
+}
+a{
+    box-shadow: 2px 2px 2px 2px #888888;
+    background-color: rgb(203, 238, 247);
+    color: black;
+    padding: 3px;
+    margin: 0px 0px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a#voltar{
+    float: right;
+    background-color: gainsboro;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+img{
+    display: inline;
+}
+h4 {
+    padding: 5px;
+    margin-top: 15px;
+    line-height: 10px;
+    margin-left: 100px;
+}

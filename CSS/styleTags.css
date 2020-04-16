@@ -1,0 +1,92 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label, input{
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    font-size: 13pt;
+    width: 100%;
+}
+input{
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+form{
+    width: 330px;
+    background-color: rgba(0, 0, 0, .2);
+    padding: 20px;
+    margin: 30px auto;
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+input[type="submit"]{
+    margin-top: 12px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+
+#esquerda{
+    width: 35%;
+    height: 500px;
+    float: left;
+}
+h2{
+    text-align: center;
+}
+#direita{
+
+    width: 65%;
+    height: 500px;
+    float: left;
+}
+
+table{
+    background-color: rgba(0, 0, 0, .2);
+    width: 90%;
+    margin: 30px auto;
+}
+
+tr{
+
+    line-height: 30px;
+}
+tr#titulo{
+    
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, .6);
+    color: whitesmoke;
+}
+td{
+    box-shadow: 2px 2px 2px 2px #888888;
+    padding: 0px 5px;
+}
+a{
+    box-shadow: 2px 2px 2px 2px #888888;
+    background-color: rgb(203, 238, 247);
+    color: black;
+    padding: 3px;
+    margin: 0px 0px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a#voltar{
+    float: right;
+    background-color: gainsboro;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 2px 2px #888888;
+}
+img{
+    display: inline;
+}
+h4 {
+    padding: 5px;
+    margin-top: 15px;
+    line-height: 10px;
+    margin-left: 100px;
+}
